@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*html, body {
+    height: 100%;
+}*/
+
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 20%, rgba(124,17,52,1) 80%);
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+}
+
+.logo {
+    width: 80px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 20px #fff;
+}
+
+h1 {
+    font-family: "Architects Daughter", cursive;
+    font-weight: 100;
+    font-size: 24px;
+    margin-bottom: 2px;
+}
+
+h2 {
+    font-size: 16px;
+    margin-top: 2px;
+}
+
+.profile {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 20px 0px;
+}
+
+.social img {
+    width: 33px;
+    background-color: red;
+    border-radius: 50%;
+    border: 1px solid red;
+}
+
+.links-list {
+    list-style: none;
+}
+
+.links-list li {
+    margin: 10px 20px;
+}
+
+.links-list li a {
+    display: block;
+    background-color: #fff;
+    padding: 15px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px #fff;
+    text-decoration: none;
+    color: rgb(2,0,36);
+    font-weight: bold;
+}
+
+.links-list li a span {
+    color: grey;
+    display: block;
+    margin-top: 10px;
+}
